@@ -535,13 +535,50 @@ body {
 	border-radius: 10px;
 	width: 20%;
 }
+
 .video_card video{
 	margin: 0;
 	width: 100%;
 }
 
+/* Contact Page */
+#map {
+	width: 100%;
+	height: 500px;
+	border: none;
+}
 
+.message_section {
+	padding: 100px;
+	
+	display: flex;
+	gap: 50px;
+}
 
+.message_row {
+	flex: 2;
+}
+
+.text_form {
+	display: flex;
+	flex-direction: column;
+}
+
+.hq_row {
+	flex: 1;
+
+	width: 50%;
+}
+
+.text_label {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.input_section {
+	display: inline-block;
+	width: 60%;
+}
 
 
 
