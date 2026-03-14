@@ -1,5 +1,5 @@
 /* for css */
-@font-face {
+/* @font-face {
   font-family: 'Aubrey';
   src: url('fonts/Aubrey/Aubrey-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -7,13 +7,13 @@
 }
 
 /* For the Roboto font */
-@font-face {
+/* @font-face {
   font-family: 'Roboto';
   src: url('fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
-
+}  */
+ 
 body {
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
@@ -193,7 +193,7 @@ body {
 	padding-right: 300px;
 }
 
-.masterclass_lessons span {
+#header_master {
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 0px;
 	font-size: 30px;
@@ -431,7 +431,7 @@ body {
 }
 
 
-.masterclass_lessons_text span {
+#mt_header {
 	font-size: 30px;
 	letter-spacing: 30px;
 	margin-bottom: 0px;
@@ -696,6 +696,248 @@ body {
 	margin-left: 16px;
 }
 
+/* Media Query */
+@media (max-width: 600px) {
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	header .top {
+		display: flex;
+        flex-direction: column;
+		justify-content: center;
+        align-items: center;
+        width: 100%;
+		max-width: 100%;
+        height: auto;
+	}
+	
+	.origami_logo {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		flex: 1 1 100%; 
+		width: 100vw;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.origami_logo img{
+		display: block;
+		max-width: 90%;
+		text-align: center;
+		height: auto;
+		object-fit: cover;
+		margin: 0;
+	}
+
+	.top .main_nav {
+		display: flex;
+		width: 100%;
+		max-width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin: 0;
+	}
+
+	.navbtn {
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.navbtn a{
+		margin: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 20px;
+		width: auto;
+		min-width: 35px;
+		font-size: 15px;
+		padding: 5px 15px;
+	}
+
+	#header {
+		font-size: 45px;
+		margin-bottom: 10px;
+	}
+
+	.origamihome1 {
+		width: 100%;
+		max-width: 100%;
+		padding: 0px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 50px 0px 30px 0px 
+	}
+
+	.origamihome1 p {
+		width: 92%;
+		text-align: justify;
+	}
+
+	.origamihome1 span {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.featured_lesson {
+		width: 100%;
+		max-width: 100%;
+		padding: 40px 0px;
+		padding-bottom: 0px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+	}
+
+	#header_featured {
+		font-size: 22px;
+		letter-spacing: 10px;
+	}
+	
+	#header_desc{
+		font-size: 14px;
+	}
+
+	.featured_lesson img {
+		width: 95%;
+		margin-bottom: 10px;
+	}
+
+	.mid_section {
+		width: 100%;
+		margin: 0 10px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mid_section .spear_tailed_dragon {
+		width: 92%;
+		max-width: 100%;
+		text-align: left;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 10px;
+	}
+
+	.spear_tailed_dragon ol {
+		margin-left: 18px;
+	}
+
+	.enroll {
+		width: 82%;
+		height: auto;
+		margin: 0px;
+		margin-top: 10px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding: 20px;
+	}
+
+	.origamihome2 {
+		width: 92%;
+	}
+
+	.origamihome2 span{
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.masterclass_lessons {
+		width: 100%;
+		max-width: 100%;
+		padding: 40px 0px;
+		margin: 0px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	#header_master {
+		font-size: 25px;
+		letter-spacing: 8px;
+	}
+
+	.tables {
+		width: 100%;
+		max-width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tables .lesson_table {
+		width: 82%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.lesson_table p {
+        width: 100%;
+        text-align: left;
+    }
+
+	.table_desc {
+		font-size: 15px;
+	}
+
+	.skill_level {
+		align-self: flex-start;
+		margin: 0px;
+	}
+
+	#rb {
+		margin: 0px;
+	}
+
+	.next_line{
+		display: block;
+		margin-bottom: 10px; 
+	}
+
+	.bottom {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	#copyright {
+		width: 60%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.bottom img {
+		width: 50%;
+		margin-top: 15px;
+	}
+
+	#name {
+		margin: 10px 0 25px 0;
+	}
+}
 
 
 
