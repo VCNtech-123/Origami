@@ -41,36 +41,59 @@
                     <h3 id="message_header">SEND US A MESSAGE</h3>
                     <form class="contact_form">
                         <div class="text_form">
-                        <label class="text_label" for="name">Name</label><input class="input_section "type="text" id="name">
-                        <label class="text_label" for="email">Email</label><input class="input_section "type="email" id="email">
-                        <label class="text_label" for="age">Age</label><input class="input_section "type="Number" id="age">
+                            <div class="input"><label class="text_label" for="name">Name</label><input class="input_section" type="text" id="name"></div>
+                            <div class="input"><label class="text_label" for="email">Email</label><input class="input_section" type="email" id="email"></div>
+                            <div class="input"><label class="text_label" for="age">Age</label><input class="input_section" type="Number" id="age"></div>
                         </div>
                         <div class="radio_form">
-                            <label>Skill Level</label>
+                            <label class="form_header">Skill Level</label>
                             <input class="radio_input" type="radio" name="skill" id="beginner"><label class="radio_label" for="beginner">Beginner</label>
                             <input class="radio_input" type="radio" name="skill" id="intermediate"><label class="radio_label" for="intermediate">Intermediate</label>
                             <input class="radio_input" type="radio" name="skill" id="master"><label class="radio_label" for="master">Master</label>
                         </div>
                         <div class="checkbox_form">
-                            <label>Interests</label>
-                            <input class="checkbox_button" type="checkbox" name="interests" id="animals"><label class="checkbox_label" for="animals">Animals</label>
-                            <input class="checkbox_button" type="checkbox" name="interests" id="objects"><label class="checkbox_label" for="objects">Objects</label>
-                            <input class="checkbox_button" type="checkbox" name="interests" id="landscapes"><label class="checkbox_label" for="landscapes">Landscapes</label>
-                            <input class="checkbox_button" type="checkbox" name="interests" id="humans"><label class="checkbox_label" for="humans">Humans</label>
-                            <input class="checkbox_button" type="checkbox" name="interests" id="complex"><label class="checkbox_label" for="complex">Complex</label>
+                            <div class="first_box"><label class="form_header">Interests</label><input class="checkbox_button" type="checkbox" name="interests" id="animals"><label class="checkbox_label" for="animals">Animals</label></div>
+                            
+                            <div class="box"><input class="checkbox_button" type="checkbox" name="interests" id="objects"><label class="checkbox_label" for="objects">Objects</label></div>
+                            <div class="box"><input class="checkbox_button" type="checkbox" name="interests" id="landscapes"><label class="checkbox_label" for="landscapes">Landscapes</label></div>
+                            <div class="box"><input class="checkbox_button" type="checkbox" name="interests" id="humans"><label class="checkbox_label" for="humans">Humans</label></div>
+                            <div class="box"><input class="checkbox_button" type="checkbox" name="interests" id="complex"><label class="checkbox_label" for="complex">Complex</label></div>
                         </div>
+                        <div class="select_form">
+                            <label for="cars" class="text_label" id="country_label">Country</label>
+                            <select id="cars" name="cars" class="input_section">
+                                <option value="" disabled selected hidden>Select</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Japan">Japan</option>
+                                <option value="America">United States America</option>
+                                <option value="China">China</option>
+                            </select>
+                        </div>
+                        <div class="input"><label class="text_label" for="message">Message</label><textarea class="input_section area_section" type="text" id="message"></textarea></div>
+                        <button class="send_button">SEND</button>
                     </form>
                 </div>
                 <div class="hq_row">
                     <h3 id="hq_heading">HEADQUARTERS</h3>
                     <p class="hq_text">Hakusa Sonso Hashimoto 
                         37 Jodoji Ishibashicho, Sakyo
-                        Kyoto, 606-8406, Japan
+                        Kyoto, 606-8406, Japana
                     </p>
-                    <p class="hq_text"><span class="hq_label">Phone</span>+81 723 5621 99</p>
-                    <p class="hq_text"><span class="hq_label">Email</span>info@houseoforigami.org</p>
+                    <p class="hq_label">Phone<span class="hq_contact">+81 723 5621 99</span></p>
+                    <p class="hq_label">Email<span class="hq_contact" id="email_space">info@houseoforigami.org</span></p>
                 </div>
             </section>
         </main>
+        <footer>
+			<div class="bottom">
+				<img src="origami-images/images/origami_logo_dark.png" alt="logo">
+				<p id="copyright">
+					Copyright © 2026. House of Origami
+					37 Jodoji Ishibashicho, Sakyo
+					Kyoto, 606-8406, Japan
+				</p>
+				<p id="name">Web Design by John Francis Vecina</p>
+			</div>
+		</footer>
     </body>
 </html>
