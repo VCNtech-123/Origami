@@ -933,7 +933,7 @@ body {
 		margin-top: 15px;
 	}
 
-	#name {
+	.name {
 		margin: 10px 0 25px 0;
 	}
 
@@ -1128,6 +1128,118 @@ body {
 		width: 100%;
 		aspect-ratio: 16 / 9;
 		object-fit: cover;
+	}
+
+
+	/* Contact Page */
+	.contacts_page {
+		width: 100%;
+		max-width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.map_section {
+		width: 100%;
+	}
+
+	#map {
+		width: 100%;
+		max-height: 400px;
+		max-width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.message_section {
+		width: 100%;
+		max-width: 100%;
+		padding: 40px 0px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.message_row {
+		width: 92%;
+		max-width: 100%;
+		padding: 0px;
+		display:flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.input_section {
+		margin: 0px;
+		width: 75%;
+	}
+
+	.input {
+		max-height: 35px;
+		align-items: flex-start;
+	}
+
+	#name {
+		margin: 0px;
+	}
+
+	.radio_form {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.radio_div {
+		display: flex;
+	}
+
+	.radio_second {
+		margin-left: 71px;
+	}
+
+	.checkbox_form {
+		margin-bottom: 20px;
+	}
+
+	#animals {
+		margin-left: 5px;
+	}
+
+	.box {
+		margin-left: 70px;
+	}
+
+	#country_label {
+		margin-right: 15px;
+	}
+
+	#message {
+		width: 85%;
+	}
+
+	.inp_message {
+		margin-bottom: 35px;
+	}
+
+	#message_label {
+		margin-right: 10px;
+	}
+
+	.send_button {
+		margin-left: 70px;
+	}
+
+	.hq_row {
+		transform: translateX(0px);
+		margin-right: 0px;	
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		text-align: center;
+	}
+
+	#hq_heading {
+		margin: 15px 0px 10px 0px;
 	}
 }
 

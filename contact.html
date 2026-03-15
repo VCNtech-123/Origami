@@ -46,10 +46,9 @@
                             <div class="input"><label class="text_label" for="age">Age</label><input class="input_section" type="Number" id="age"></div>
                         </div>
                         <div class="radio_form">
-                            <label class="form_header">Skill Level</label>
-                            <input class="radio_input" type="radio" name="skill" id="beginner"><label class="radio_label" for="beginner">Beginner</label>
-                            <input class="radio_input" type="radio" name="skill" id="intermediate"><label class="radio_label" for="intermediate">Intermediate</label>
-                            <input class="radio_input" type="radio" name="skill" id="master"><label class="radio_label" for="master">Master</label>
+                            <div class="radio_div"><label class="form_header">Skill Level</label><input class="radio_input" type="radio" name="skill" id="beginner"><label class="radio_label" for="beginner">Beginner</label></div>
+                            <div class="radio_div radio_second"><input class="radio_input" type="radio" name="skill" id="intermediate"><label class="radio_label" for="intermediate">Intermediate</label></div>
+                            <div class="radio_div radio_second"><input class="radio_input" type="radio" name="skill" id="master"><label class="radio_label" for="master">Master</label></div>
                         </div>
                         <div class="checkbox_form">
                             <div class="first_box"><label class="form_header">Interests</label><input class="checkbox_button" type="checkbox" name="interests" id="animals"><label class="checkbox_label" for="animals">Animals</label></div>
@@ -69,7 +68,7 @@
                                 <option value="China">China</option>
                             </select>
                         </div>
-                        <div class="input"><label class="text_label" for="message">Message</label><textarea class="input_section area_section" type="text" id="message"></textarea></div>
+                        <div class="input inp_message"><label class="text_label" for="message" id="message_label">Message</label><textarea class="input_section area_section" type="text" id="message"></textarea></div>
                         <button class="send_button">SEND</button>
                     </form>
                 </div>
@@ -77,7 +76,7 @@
                     <h3 id="hq_heading">HEADQUARTERS</h3>
                     <p class="hq_text">Hakusa Sonso Hashimoto 
                         37 Jodoji Ishibashicho, Sakyo
-                        Kyoto, 606-8406, Japana
+                        Kyoto, 606-8406, Japan
                     </p>
                     <p class="hq_label">Phone<span class="hq_contact">+81 723 5621 99</span></p>
                     <p class="hq_label">Email<span class="hq_contact" id="email_space">info@houseoforigami.org</span></p>
@@ -92,7 +91,7 @@
 					37 Jodoji Ishibashicho, Sakyo
 					Kyoto, 606-8406, Japan
 				</p>
-				<p id="name">Web Design by John Francis Vecina</p>
+				<p class="name">Web Design by John Francis Vecina</p>
 			</div>
 		</footer>
     </body>
