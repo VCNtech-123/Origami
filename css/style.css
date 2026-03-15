@@ -937,6 +937,111 @@ body {
 	#name {
 		margin: 10px 0 25px 0;
 	}
+
+	/* About Page */
+	.about {
+		width: 100%;
+		max-width: 100%;
+		height: 80px;
+		justify-content: center;
+		padding: 0px;
+		margin-top: 20px;
+	}
+
+	.about p{
+		font-size: 40px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+
+	.origami_masters {
+		width: 100%;
+		max-width: 100%;
+		padding: 30px 0px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.origami_masters span {
+		letter-spacing: 8px;
+	}
+
+	.masters {
+		width: 100%;
+		flex-direction:column;
+		gap: 30px;
+		padding: 15px 0px;
+	}
+
+	.masters .master1,
+	.masters .master2 {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.school_masters {
+		width: 100%;
+		max-width: 100%;
+		padding: 40px 0px;
+	}
+
+	.school_masters span {
+		letter-spacing: 8px;
+	}
+
+	.school_masters_whole {
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.school_masters_whole .school_masters_left {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+
+	}
+
+	.school_masters_whole .school_masters_left img{
+		margin-bottom: -10px;
+	}
+
+	.school_masters_whole .school_masters_right {
+		width: 100%;
+		justify-content: center;
+		margin: 0px;
+		padding:0px;
+	}
+
+	.school_masters_right .left,
+	.school_masters_right .right {
+		gap: 50px;
+	}
+
+	.lm {
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.school_masters_right .left img,
+	.school_masters_right .right img {
+		margin: 0px;
+		margin-bottom: 5px;
+	}
+
+	/* Lessons Page */
+	
 }
 
 
