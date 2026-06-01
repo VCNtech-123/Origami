@@ -1,5 +1,5 @@
 # Origami Project
-
+ 
 A multi-page instructional website dedicated to the art of paper folding. This project represents my very first step into web development, built entirely with core web technologies.
  
 ## 🚀 Project Overview
