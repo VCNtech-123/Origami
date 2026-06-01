@@ -1,7 +1,7 @@
 # Origami Project
 
 A multi-page instructional website dedicated to the art of paper folding. This project represents my very first step into web development, built entirely with core web technologies.
-
+ 
 ## 🚀 Project Overview
 This website serves as a beginner-friendly guide to origami, featuring different sections for learning, history, and contact information. The goal was to practice structuring content with HTML and creating a clean layout with CSS.
 
