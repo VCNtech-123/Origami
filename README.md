@@ -23,4 +23,4 @@ As my first project, I focused on:
 4. Structuring forms for the contact page.
 
 ---
-*Created as my first coding milestone.*
+*Created as my first coding milestone.* 
